@@ -1,0 +1,32 @@
+.card-text-d{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+}
+
+.row{
+    padding-block-start: 100px;
+}
+
+
+.nav-container{
+    width: 100%;
+    display: block;
+}
+
+.navbar-nav .dropdown-menu {
+    position: relative;}
+
+
+    dropdown-menu.show{
+        display: block;
+    }
+
+
+.navbar-nav {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    float: left;
+}
+

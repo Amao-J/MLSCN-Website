@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    
+  
+</head>
+
+  <nav class="navbar fixed-top navbar-expand-xlg navbar-dark bg-dark-green">
+    <div class="navbar-brand">
+        <a class="navbar-brand" href="#">
+            <img src="MLSCN-logo.png" alt="MLSCN Logo" height="40"> <span class="logo-name">MLSCN</span>
+        </a>
+    </div>
+
+    <div class="navbar-icons">
+        <button class="navbar-toggler" type="button" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+        </button>
+
+        <div class="social-icons">
+            <span><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></span>
+            <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+            <a href="#"><i class="fab fa-pinterest" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="nav-contianer">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="index.html" id="aboutUsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About Us <span class="arrow"><i class="fa-solid fa-right-long"></i></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="aboutUsDropdown">
+                        <li class="nest"><a class="dropdown-item" href="HMM.html">Mission & Vision</a></li>
+                        <li class="nest"><a class="dropdown-item" href="HMM.html">MLSCN Mandate</a></li>
+                        <li class="nest"><a class="dropdown-item" href="HMM.html">Our History</a></li>
+                        <li class="nest"><a class="dropdown-item" href="#">MLSCN Governing Board</a></li>
+                        <li class="nest"><a class="dropdown-item" href="#">Management Team</a></li>
+                        <li class="nest"><a class="dropdown-item" href="#">Structure & Organogram</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown nest">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="show" aria-haspopup="true" aria-expanded="false">
+                        Education/Training <span class="arrow"><i class="fa-solid fa-right-long"></i></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="nest">
+                            <a class="dropdown-item" href="#">MLS Training <i class="fa-solid fa-right-long"></i> </a>
+                            <ul class="dropdown-menu">
+                                <li class="nest"><a class="dropdown-item" href="#">Guidelines for Training Institutions seeking Accreditation</a></li>
+                                <li class="nest"><a class="dropdown-item" href="#">Request for Accreditation of MLS Training Institutions</a></li>
+                                <li class="nest"><a class="dropdown-item" href="#">Approved MLS Training Institutions/Universities</a></li>
+                                <li class="nest"><a class="dropdown-item" href="#">Approved Institutions for MLS Internship</a></li>
+                            </ul>
+                        </li>
+                        <li class="nest">
+                            <a class="dropdown-item" href="#">Laboratory Facilities <span class="arrow"><i class="fa-solid fa-right-long"></i></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="nest"><a class="dropdown-item" href="#">Procedure/Approved Guideline for Registering Laboratories</a></li>
+                                <li class="nest"><a class="dropdown-item" href="#">Procedure/Approved Guideline for Registering Accreditation</a></li>
+                                <li class="nest"><a class="dropdown-item" href="#">Registered/Approved Laboratories</a></li>
+                                <li class="nest"><a class="dropdown-item" href="#">Accredited Laboratories</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown nest">
+                    <a class="nav-link dropdown-toggle" href="#" id="registrationLicensingDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Registration/License <span class="arrow"><i class="fa-solid fa-right-long"></i></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="registrationLicensingDropdown">
+                        <li class="nest">
+                            <a class="dropdown-item" href="#">Practitioner <span class="arrow"><i class="fa-solid fa-right-long"></i></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="nest"><a class="dropdown-item" href="#">Medical Laboratory Scientists</a></li>
+                                <li class="nest"><a class="dropdown-item" href="#">Medical Laboratory Technicians</a></li>
+                                <li class="nest"><a class="dropdown-item" href="#">Medical Laboratory Assistants</a></li>
+                                <li class="nest"><a class="dropdown-item" href="#">Up-to-date Practitioners Register</a></li>
+                            </ul>
+                        </li>
+                        <li class="nest">
+                            <a class="dropdown-item" href="#">Laboratory Facilities <span class="arrow"><i class="fa-solid fa-right-long"></i></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="nest"><a class="dropdown-item" href="#">Procedure/Approved Guideline for Registering Laboratories</a></li>
+                                <li class="nest"><a class="dropdown-item" href="#">Procedure/Approved Guideline for Registering Accreditation</a></li>
+                                <li class="nest"><a class="dropdown-item" href="#">Registered/Approved Laboratories</a></li>
+                                <li class="nest"><a class="dropdown-item" href="#">Accredited Laboratories</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown nest">
+                    <a class="nav-link dropdown-toggle" href="#" id="inspectionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Inspection / Monitoring <span class="arrow"><i class="fa-solid fa-right-long"></i></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="inspectionDropdown">
+                        <li class="nest"><a class="dropdown-item" href="#">Laboratory Facilities<span class="arrow"><i class="fa-solid fa-right-long"></i></span></a></li>
+                        <li class="nest"><a class="dropdown-item" href="#">Training Institutions<span class="arrow"><i class="fa-solid fa-right-long"></i></span></a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown nest">
+                    <a class="nav-link dropdown-toggle" href="#" id="registrationLicensingDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        CPDS <span class="arrow"><i class="fa-solid fa-right-long"></i></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="cpdsDropdown">
+                        <li class="nest"><a class="dropdown-item" href="#">CPD Policy</a></li>
+                        <li class="nest"><a class="dropdown-item" href="#">Available CPD Courses</a></li>
+                        <li class="nest"><a class="dropdown-item" href="#">Upcoming CPD Courses</a></li>
+                        <li class="nest">
+                            <a class="dropdown-item" href="#">CPD Providers <span class="arrow"><i class="fa-solid fa-right-long"></i></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="nest"><a class="dropdown-item" href="#">Approved CPD Providers</a></li>
+                                <li class="nest"><a class="dropdown-item" href="#">Guidelines for CPD Providers</a></li>
+                                <li class="nest"><a class="dropdown-item" href="#">Registering as CPD Provider</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown nest">
+                    <a class="nav-link dropdown-toggle" href="#">IVDS <span class="arrow"><i class="fa-solid fa-right-long"></i></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="ivdsDropdown">
+                        <li class="nest"><a class="dropdown-item" href="#">Requirements for COVID-19 IVD Validation</a></li>
+                        <li class="nest"><a class="dropdown-item" href="#">Guidelines for IVD Providers</a></li>
+                        <li class="nest"><a class="dropdown-item" href="#">Registering as IVD Provider</a></li>
+                        <li class="nest"><a class="dropdown-item" href="#">Registering an IVD Product</a></li>
+                         <li class="nest"><a class="dropdown-item" href="#">Approved IVDs</a></li>
+                        <li class="nest"><a class="dropdown-item" href="#">IVD Applicable Fees</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown nest">
+                    <a class="nav-link dropdown-toggle" href="#">EQA <span class="arrow"><i class="fa-solid fa-right-long"></i></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="eqaDropdown">
+                        <li class="nest"><a class="dropdown-item" href="#">Guidelines for EQA</a></li>
+                        <li class="nest"><a class="dropdown-item" href="#">Available EQA Schemes</a></li>
+                        <li class="nest"><a class="dropdown-item" href="#">EQA Registration</a></li>
+                        <li class="nest"><a class="dropdown-item" href="#">EQA Providers</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us <span class="arrow"><i class="fa-solid fa-right-long"></i></span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    
+<section class="articles-section mt-5">
+    <div class="page-header"><h1>Approved Institutions for MLS Internship</h1>
+      <div class="controls">
+    <div class="entries">
+        <label for="entries">Show</label>
+        <div class="entries-container">
+            <select id="entries" name="entries" class="" >
+                <option value="10">10</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+            </select>
+            <i class="fas fa-sort-up"></i>
+            <i class="fas fa-sort-down"></i>
+        </div>
+        <label for="entries">Entries</label>
+    </div>
+    <div class="search">
+        <label for="search-bar" style="display:none">Search:</label>
+        <div class="search-container">
+            <i class="fas fa-search"></i>
+            <input type="text" id="search-bar" name="search-bar" placeholder="Search...">
+        </div>
+    </div>
+</div></div>
+
+
+
+  <main>
+        
+         
+
+        
+        <div class="select-form">
+            <label for="hospital-category" style="display:none">Choose a category:</label>
+            <select id="hospital-category" name="hospital-category" class="select-form">
+                <option value="military-hospitals">Military Hospitals</option>
+                <option value="federal-specialist-hospitals">Federal Specialist Hospitals</option>
+                <option value="state-specialist-hospitals">State Specialist Hospitals</option>
+                <option value="federal-universities-teaching-hospitals">Federal Universities Teaching Hospitals</option>
+                <option value="federal-medical-centres">Federal Medical Centres</option>
+                <option value="state-teaching-hospitals">State Teaching Hospitals</option>
+            </select>
+<i class="fa-solid fa-sort-down"></i>
+        </div>
+        
+
+        
+        <div class="tables">
+            <table id="military-hospitals" class="hospital-table">
+                <thead>
+                    <tr>
+                        <th>S/N</th>
+                        <th>Military Hospitals</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>68 Nigeria Army Reference Hospital Yaba, Lagos State</td></tr>
+                    <tr><td>2</td><td>48th Armed Force Hospital, Yaba, Lagos State</td></tr>
+                    <tr><td>3</td><td>445 NAF Hospital Ikeja, Lagos State</td></tr>
+                    <tr><td>4</td><td>347 NAF Hospital Jos, Plateau State</td></tr>
+                    <tr><td>5</td><td>82 Division Nigeria Army Hospital, Enugu, Enugu State</td></tr>
+                    <tr><td>6</td><td>Military Base Hospital, Benin City Oredo, Edo State</td></tr>
+                    <tr><td>7</td><td>44 Nigeria Army Reference Hospital, Kaduna, Kaduna State</td></tr>
+                    <tr><td>8</td><td>Nigeria Navy Reference Hospital Calabar, Cross Rivers</td></tr>
+                    <tr><td>9</td><td>45 Nigeria Air Force Hospital Markudi, Benue State</td></tr>
+                    <tr><td>10</td><td>Military Hospital Ikoyi, Lagos State</td></tr>
+                </tbody>
+            </table>
+
+            <table id="federal-specialist-hospitals" class="hospital-table">
+                <thead>
+                    <tr>
+                        <th>S/N</th>
+                        <th>Federal Specialist Hospitals</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>National Orthopedic Hospital, Igbobi, Lagos State</td></tr>
+                    <tr><td>2</td><td>National Orthopedic Hospital, Enugu, Enugu State</td></tr>
+                    <tr><td>3</td><td>National Orthopedic Hospital Dala, Kano State</td></tr>
+                    <tr><td>4</td><td>National Eye Centre, Kaduna, Kaduna State</td></tr>
+                    <tr><td>5</td><td>Federal Neuropsychiatric Hospital, Yaba, Lagos State</td></tr>
+                    <tr><td>6</td><td>Federal Neuropsychiatric Hospital, Uselu, Benin City, Edo state</td></tr>
+                    <tr><td>7</td><td>Federal Neuropsychiatric Hospital, Sokoto, Sokoto state</td></tr>
+                    <tr><td>8</td><td>Federal Neuropsychiatric Hospital, Maiduguri, Borno State</td></tr>
+                    <tr><td>9</td><td>Federal Neuropsychiatric Hospital, Kaduna, Kaduna State</td></tr>
+                    <tr><td>10</td><td>Federal Orthopedic Hospital, Enugu, Enugu State</td></tr>
+                </tbody>
+            </table>
+
+            <table id="state-specialist-hospitals" class="hospital-table">
+                <thead>
+                    <tr>
+                        <th>S/N</th>
+                        <th>State Specialist Hospitals</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Barau Dikko Specialist Hospital Kaduna, Kaduna State</td></tr>
+                    <tr><td>2</td><td>Sobi Specialist Hospital Ilorin, Kwara State</td></tr>
+                    <tr><td>3</td><td>State Specialist Hospital Maiduguri, Borno State</td></tr>
+                    <tr><td>4</td><td>Mohammed Abdullahi Wase Specialist Hospital, Kano, Kano State</td></tr>
+                    <tr><td>5</td><td>Specialist Hospital Sokoto, Sokoto State</td></tr>
+                    <tr><td>6</td><td>Rasheed Shekoni Specialist Hospital, Dutse, Jigawa State</td></tr>
+                    <tr><td>7</td><td>Ring Road Specialist Hospital Complex Ibadan, Oyo State</td></tr>
+                    <tr><td>8</td><td>State Specialist Hospital Ikare Ekiti, Ekiti State</td></tr>
+                    <tr><td>9</td><td>Yariman Bakura Specialist Hospital Laboratories, Gusau Zamfara State</td></tr>
+                    <tr><td>10</td><td>Plateau Specialist Hospital, Jos, Plateau State</td></tr>
+                </tbody>
+            </table>
+
+            <table id="federal-universities-teaching-hospitals" class="hospital-table">
+                <thead>
+                    <tr>
+                        <th>S/N</th>
+                        <th>Federal Universities Teaching Hospitals</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>University of Nigeria Teaching Hospital Enugu, Enugu State</td></tr>
+                    <tr><td>2</td><td>Federal Teaching Hospital Abakaliki, Ebonyi State</td></tr>
+                    <tr><td>3</td><td>University of Uyo Teaching Hospital, Uyo, Akwa-Ibom State</td></tr>
+                    <tr><td>4</td><td>University of Calabar Teaching Hospital, Calabar, Cross Rivers State</td></tr>
+                    <tr><td>5</td><td>University of Benin Teaching Hospital, Edo State</td></tr>
+                    <tr><td>6</td><td>University of Port-Harcourt Teaching Hospital, Rivers State</td></tr>
+                    <tr><td>7</td><td>Lagos University Teaching Hospital, Idi-Araba, Lagos State</td></tr>
+                    <tr><td>8</td><td>OAU Teaching Hospital Ile-Ife, Osun State</td></tr>
+                    <tr><td>9</td><td>University College Hospital Ibadan, Oyo State</td></tr>
+                    <tr><td>10</td><td>Federal Teaching Hospital Ido Ekiti, Ekiti State</td></tr>
+                </tbody>
+            </table>
+
+            <table id="federal-medical-centres" class="hospital-table">
+                <thead>
+                    <tr>
+                        <th>S/N</th>
+                        <th>Federal Medical Centres</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Federal Medical Centre, Lokoja, Kogi state</td></tr>
+                    <tr><td>2</td><td>Federal Medical Centre, Keffi, Nasarawa State</td></tr>
+                    <tr><td>3</td><td>Federal Medical Centre, Makurdi, Benue State</td></tr>
+                    <tr><td>4</td><td>Federal Medical Centre, Bida, Niger State</td></tr>
+                    <tr><td>5</td><td>Federal Medical Centre, Jabi, F.C.T</td></tr>
+                    <tr><td>6</td><td>Federal Medical Centre, Azare, Bauchi State</td></tr>
+                    <tr><td>7</td><td>Federal Medical Centre, Jalingo, Taraba State</td></tr>
+                    <tr><td>8</td><td>Federal Medical Centre, Yola, Adamawa State</td></tr>
+                    <tr><td>9</td><td>Federal Medical Centre, Nguru, Yobe State</td></tr>
+                    <tr><td>10</td><td>Federal Medical Centre, Kastina, Kastina State</td></tr>
+                </tbody>
+            </table>
+
+            <table id="state-teaching-hospitals" class="hospital-table">
+                <thead>
+                    <tr>
+                        <th>S/N</th>
+                        <th>State Teaching Hospitals</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Abia State University Teaching Hospital, Aba, Abia State</td></tr>
+                    <tr><td>2</td><td>Ebonyi State University Teaching Hospital, Abakaliki, Ebonyi State</td></tr>
+                    <tr><td>3</td><td>Imo State University Teaching Hospital, Orlu, Imo State</td></tr>
+                    <tr><td>4</td><td>Chukwuemeka Odumegu Ojukwu University Teaching Hospital Amaka Awka, Anambra State</td></tr>
+                    <tr><td>5</td><td>Delta State University Teaching Hospital, Oghara, Delta State</td></tr>
+                    <tr><td>6</td><td>Olabisi Onabanjo University Teaching Hospital, Sagamu, Ogun State</td></tr>
+                    <tr><td>7</td><td>Lautech Teaching Hospital Oshogbo, Osun State</td></tr>
+                    <tr><td>8</td><td>University Teaching Hospital Ado Ekiti, Ekiti State</td></tr>
+                    <tr><td>9</td><td>Lagos State University Teaching Hospital, Ikeja, Lagos State</td></tr>
+                    <tr><td>10</td><td>University of Medical Science Teaching Hospital, Akure Ondo State</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</section>
+
+  <footer class="foot">
+    
+        <div class="row foot-container">
+            <div class="col-md-6 foot-left"> 
+                <img src="MLSCN-logo.png" alt="MLSCN Logo" >
+                <p>Copyright © 2024<br>
+                    Medical Laboratory Science Council of Nigeria.<br>
+                    All rights reserved.</p>
+            </div>
+            <div class="col-md-2 foot-right">
+                <h5>USEFUL LINKS</h5>
+                <ul>
+                    <li><a href="#">MLSCN Mandate</a></li>
+                    <li><a href="#">MLSCN History</a></li>
+                    <li><a href="#">MLSCN Approved Documents</a></li>
+                    <li><a href="#">MLSCN Webmail</a></li>
+                    <li><a href="#">Up-to-date MLS Practitioners' Register</a></li>
+                </ul>
+            </div>
+        </div>
+    
+</footer>
+       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/eed45f1c71.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border: 1px solid rgba(33, 67, 0, 1);
+}
+
+thead th:first-child{
+    border:none;
+    background-color: rgba(65, 131, 1, 1);
+    padding:16px;
+    
+}
+thead th:last-child{
+
+    background-color: rgba(65, 131, 1, 1);
+    border: none;
+}

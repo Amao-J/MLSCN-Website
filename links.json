@@ -1,0 +1,319 @@
+{
+  "links": [
+    {
+      "label": "Home",
+      "url": "index.html"
+    },
+    {
+      "label": "About Us",
+      "url": "#",
+      "sublinks": [
+        {
+          "label": "Mission & Vision",
+          "url": "HMM.html"
+        },
+        {
+          "label": "MLSCN Mandate",
+          "url": "HMM.html"
+        },
+        {
+          "label": "Our History",
+          "url": "HMM.html"
+        },
+        {
+          "label": "MLSCN Governing Board",
+          "url": "#"
+        },
+        {
+          "label": "Management Team",
+          "url": "#"
+        },
+        {
+          "label": "Structure & Organogram",
+          "url": "organogram.html"
+        }
+      ]
+    },
+    {
+      "label": "Education/Training",
+      "url": "#",
+      "sublinks": [
+        {
+          "label": "MLS Training",
+          "url": "#",
+          "sublinks": [
+            {
+              "label": "Guildlines for Training Institutions seeking Accreditation",
+              "url": "#"
+            },
+            {
+              "label": "Request for Accreditation of MLS Training Institutions",
+              "url": "#"
+            },
+            {
+              "label": "Approved MLS Training Institutions /Universities",
+              "url": "#"
+            },
+            {
+              "label": "Approved Institutions for MLS Internship ",
+              "url": "#"
+            }
+          ]
+        },
+        {
+          "label": "Laboratory Facilities",
+          "url": "#",
+          "sublinks": [
+            {
+              "label": "Procedure/Approved Guideline for Registering Laboratories",
+              "url": "#"
+            },
+            {
+              "label": "Procedure/Approved Guideline for Registering Accreditation",
+              "url": "#"
+            },
+            {
+              "label": "Registered/Approved Laboratories",
+              "url": "#"
+            },
+            {
+              "label": "Accredited Laboratories",
+              "url": "#"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Registration/License",
+      "url": "#",
+      "sublinks": [
+        {
+          "label": "Practitioner",
+          "url": "#",
+          "sublinks": [
+            {
+              "label": "Medical Laboratory Scientists",
+              "url": "#"
+            },
+            {
+              "label": "Medical Laboratory Technicians",
+              "url": "#"
+            },
+            {
+              "label": "Medical Laboratory Assistants",
+              "url": "#"
+            },
+            {
+              "label": "Up-to-date Practioners Register",
+              "url": "#"
+            }
+          ]
+        },
+        {
+          "label": "Laboratory Facilities",
+          "url": "#",
+          "sublinks": [
+            {
+              "label": "Procedure/Approved Guideline for Registering Laboratories",
+              "url": "#"
+            },
+            {
+              "label": "Procedure/Approved Guideline for Registering Accreditation",
+              "url": "#"
+            },
+            {
+              "label": "Registered/Approved Laboratories",
+              "url": "#"
+            },
+            {
+              "label": "Accredited Laboratories",
+              "url": "#"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Inspection/Monitoring",
+      "url": "#",
+      "sublinks": [
+        {
+          "label": "Laboratory Facilities",
+          "url": "#"
+        },
+        {
+          "label": "Training Institutions",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "label": "CPDS",
+      "url": "#",
+      "sublinks": [
+        {
+          "label": "CPD Policy",
+          "url": "#"
+        },
+        {
+          "label": "Available CPD Courses",
+          "url": "#"
+        },
+        {
+          "label": "Upcoming CPD Courses",
+          "url": "#"
+        },
+        {
+          "label": "CPD Providers",
+          "url": "#",
+          "sublinks": [
+            {
+              "label": "Approved CPD Providers",
+              "url": "#"
+            },
+            {
+              "label": "Guidelines for CPD Providers",
+              "url": "#"
+            },
+            {
+              "label": "Registering as CPD Provider",
+              "url": "#"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "IVDS",
+      "url": "#",
+      "sublinks": [
+        {
+          "label": "Requirements for COVID-19 IVD Validation",
+          "url": ""
+        },
+        {
+          "label": "Guidelines for IVD Providers",
+          "url": "#"
+        },
+        {
+          "label": "Registering as IVD Provider",
+          "url": "#"
+        },
+        {
+          "label": "Registering an IVD Product",
+          "url": "#"
+        },
+        {
+          "label": "Approved IVDs",
+          "url": "#"
+        },
+        {
+          "label": "IVD Applicable Fees",
+          "url": "#"
+        }
+      ]
+    },
+
+    {
+      "label": "EQA",
+      "url": "#",
+      "sublinks": [
+        {
+          "label": "Guidelines for EQA",
+          "url": ""
+        },
+        {
+          "label": "EQA Participating Facilities",
+          "url": "#"
+        },
+        {
+          "label": "EQA Summary Reports",
+          "url": "#"
+        },
+        {
+          "label": "Register for EQA",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "label": "Publications",
+      "url": "#",
+      "sublinks": [
+        {
+          "label": "MLSCN Laws",
+          "url": "#"
+        },
+        {
+          "label": "MLSCN Statistical Reviews",
+          "url": "#"
+        },
+        {
+          "label": "MLSCN Newsletters",
+          "url": "#"
+        },
+        {
+          "label": "MLSCN Approved Documents",
+          "url": "#"
+        },
+        {
+          "label": "MLSCN Bulletin",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "label": "NALECC",
+      "url": "#",
+      "sublinks": [
+        {
+          "label": "NaLECC Overview",
+          "url": "#"
+        },
+        {
+          "label": "Work-order & Decontamination Form",
+          "url": "#"
+        },
+        {
+          "label": "Equipment Receiving form",
+          "url": "#"
+        },
+        {
+          "label": "Customer Service Feedback",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "label": "BRM",
+      "url": "#",
+      "sublinks": [
+        {
+          "label": "BRM Policy",
+          "url": "#"
+        },
+        {
+          "label": "Biorisk Management objective",
+          "url": "#"
+        },
+        {
+          "label": "Functions of the BRM",
+          "url": "#"
+        },
+        {
+          "label": "BRM Members",
+          "url": "#"
+        },
+        {
+          "label": "BRM Activities",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "label": "Contact Us",
+      "url": "contact.html"
+    }
+  ]
+}
